@@ -1,0 +1,2 @@
+welcome to git hubbb
+git is software tool where as github is a service
