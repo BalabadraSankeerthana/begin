@@ -1,0 +1,35 @@
+var expressobj={
+    hooks{
+        preSaveFunction  function(options,callback)
+            {
+                var responseData={ data[{
+                    name 'dcdf',
+                    id123
+                }], errors[]}
+
+             
+               responseData.data.push(options.data[0])
+                 console.log(options.data);
+ 
+                return callback(null,responseData)
+            },
+            preMap  function(options,callback)
+            {
+                console.log(JSON.stringify(options.data));
+                
+               var preResponseData=[{
+                    data[],
+                    errors [{}]
+               }]  
+
+                for(var j=0;j2;j++)
+                {
+                    preResponseData[0].data.push({nameoptions.data[j][0].Name,idoptions.data[j][0].id,recordTypeoptions.data[j][0].recordType})
+                }  
+              
+                console.log('n'+JSON.stringify(preResponseData))
+                return callback(null,preResponseData)
+             }
+    }
+}
+module.exports=expressobj;

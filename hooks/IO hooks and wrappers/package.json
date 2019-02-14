@@ -1,0 +1,24 @@
+{
+  "name": "testserver",
+  "version": "1.0.0",
+  "description": "first",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "master"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "sankeerthana",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "express-integrator-extension": "^0.2.3"
+  }
+}
